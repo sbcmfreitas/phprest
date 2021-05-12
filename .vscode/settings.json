@@ -1,0 +1,11 @@
+{
+   "php.executablePath" : "C:\\MAMP\\bin\\php\\php7.4.1\\php.exe",
+   "php.suggest.basic" : false,  
+   "composer.executablePath" : "C:\\MAMP\\htdocs\\phprest\\composer.phar",
+   "composer.workingPath": "C:\\MAMP\\htdocs\\phprest",
+   "cSpell.words": [
+      "classmap",
+      "phpunit",
+      "testsuite"
+   ]
+}
