@@ -31,12 +31,11 @@ class Response
 
     public function toCache($_toCache)
     {
-            $this->_toCache = $_toCache;
+        $this->_toCache = $_toCache;
     }
-    
+
     public function send()
     {
-
         header('Content-type: application/json;charset=utf-8');
 
         if ($this->_toCache == true) {
@@ -45,28 +44,24 @@ class Response
             header('Cache-control: no-cache, no-store');
         }
 
-        if (($this->_success !== false && $this->_success != true) || !is_numeric($this->_httpStatusCode) ) {
+        if (($this->_success !== false && $this->_success != true) || !is_numeric($this->_httpStatusCode)) {
             http_response_code(500);
 
             $this->_responseData['statusCode'] = 500;
             $this->_responseData['success'] = false;
             $this->addMessage("Response creation error");
             $this->_responseData[] = $this->_messages;
-        }else{
+        } else {
             http_response_code($this->_httpStatusCode);
             $this->_responseData['statusCode'] = $this->_httpStatusCode;
             $this->_responseData['success'] = $this->_success;
             $this->_responseData['messages'] = $this->_messages;
             $this->_responseData['data']= $this->_data;
-
-            echo json_encode($this->_responseData);
-
         }
     }
 
     public function getResponseData()
     {
         return $this->_responseData;
-        
     }
 }

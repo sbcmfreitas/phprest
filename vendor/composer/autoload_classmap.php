@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'DBTest' => $baseDir . '/v1/tests/DBTest.php',
     'PHPUnit\\DbUnit\\AbstractTester' => $vendorDir . '/phpunit/dbunit/src/AbstractTester.php',
     'PHPUnit\\DbUnit\\Constraint\\DataSetIsEqual' => $vendorDir . '/phpunit/dbunit/src/Constraint/DataSetIsEqual.php',
     'PHPUnit\\DbUnit\\Constraint\\TableIsEqual' => $vendorDir . '/phpunit/dbunit/src/Constraint/TableIsEqual.php',

@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'b614aa8be93996c2a01dd054bf734de057d56ebb',
+    'reference' => '144c7785793aa9976d4de6536d002989c7159096',
     'name' => '__root__',
   ),
   'versions' => 
@@ -44,7 +44,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'b614aa8be93996c2a01dd054bf734de057d56ebb',
+      'reference' => '144c7785793aa9976d4de6536d002989c7159096',
     ),
     'doctrine/instantiator' => 
     array (
@@ -283,6 +283,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '99732be0ddb3361e16ad77b68ba41efc8e979019',
+    ),
+    'squizlabs/php_codesniffer' => 
+    array (
+      'pretty_version' => '3.6.0',
+      'version' => '3.6.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'ffced0d2c8fa8e6cdc4d695a743271fab6c38625',
     ),
     'symfony/polyfill-ctype' => 
     array (

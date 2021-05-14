@@ -71,6 +71,7 @@ class ComposerStaticInit38b424947ec13abd09f6b84b4bde7c9a
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'DBTest' => __DIR__ . '/../..' . '/v1/tests/DBTest.php',
         'PHPUnit\\DbUnit\\AbstractTester' => __DIR__ . '/..' . '/phpunit/dbunit/src/AbstractTester.php',
         'PHPUnit\\DbUnit\\Constraint\\DataSetIsEqual' => __DIR__ . '/..' . '/phpunit/dbunit/src/Constraint/DataSetIsEqual.php',
         'PHPUnit\\DbUnit\\Constraint\\TableIsEqual' => __DIR__ . '/..' . '/phpunit/dbunit/src/Constraint/TableIsEqual.php',
