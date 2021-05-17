@@ -32,20 +32,11 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '144c7785793aa9976d4de6536d002989c7159096',
-    'name' => '__root__',
+    'reference' => '4da5134e51c4419e30b9228e1586111ad53e576d',
+    'name' => 'mrfreitas/restphp',
   ),
   'versions' => 
   array (
-    '__root__' => 
-    array (
-      'pretty_version' => 'dev-main',
-      'version' => 'dev-main',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '144c7785793aa9976d4de6536d002989c7159096',
-    ),
     'doctrine/instantiator' => 
     array (
       'pretty_version' => '1.4.0',
@@ -54,6 +45,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'd56bf6102915de5702778fe20f2de3b2fe570b5b',
+    ),
+    'mrfreitas/restphp' => 
+    array (
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4da5134e51c4419e30b9228e1586111ad53e576d',
     ),
     'myclabs/deep-copy' => 
     array (

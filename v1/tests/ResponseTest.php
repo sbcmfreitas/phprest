@@ -12,7 +12,7 @@ class ResponseTest extends TestCase
      */
     public function test_Send_ValidParameters_ReturnResponseData(): void
     {
-        //given
+        // Arrange
         $response = new Response();
         $response->setSuccess(true);
         $response->setHttpStatusCode(200);
@@ -20,11 +20,11 @@ class ResponseTest extends TestCase
         $response->addMessage("Test Message 2");
         $response->send();
 
-        //when
+        // Act
         $result = $response->getResponseData();
 
 
-        //then
+        // Assert
         $this->assertIsArray($result);
         $this->assertEquals($result['statusCode'], 200);
     }
