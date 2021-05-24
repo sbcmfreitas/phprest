@@ -1,9 +1,8 @@
 {
-   "php.executablePath" : "C:\\MAMP\\bin\\php\\php7.4.1\\php.exe",
-   "php.validate.executablePath": "C:\\MAMP\\bin\\php\\php7.4.1\\php.exe",
+   "php.executablePath" : "C:\\Program Files\\php-7.4.19-Win32-vc15-x64\\php.exe",
+   "php.validate.executablePath": "C:\\Program Files\\php-7.4.19-Win32-vc15-x64\\php.exe",
    "php.suggest.basic" : false,  
-   "composer.executablePath" : "C:\\MAMP\\htdocs\\phprest\\composer.phar",
-   "composer.workingPath": "C:\\MAMP\\htdocs\\phprest",
+   "composer.workingPath": "C:\\GIT\\phprest",
    "cSpell.words": [
       "classmap",
       "phpunit",
@@ -12,8 +11,8 @@
    "phpCodeSniffer.autoExecutable": true,
    "phpCodeSniffer.standard": "Custom",
    "phpCodeSniffer.standardCustom": "PSR12",
-   "php-cs-fixer.executablePath": "C:\\MAMP\\htdocs\\phprest\\vendor\\php-cs-fixer\\vendor\\bin\\php-cs-fixer.bat",
-   "php-cs-fixer.executablePathWindows": "C:\\MAMP\\htdocs\\phprest\\vendor\\php-cs-fixer\\vendor\\bin\\php-cs-fixer.bat",   //eg: php-cs-fixer.bat
+   "php-cs-fixer.executablePath": "C:\\Users\\sbcmf\\AppData\\Roaming\\Composer\\vendor\\bin\\php-cs-fixer.bat",
+   "php-cs-fixer.executablePathWindows": "C:\\Users\\sbcmf\\AppData\\Roaming\\Composer\\vendor\\bin\\php-cs-fixer.bat",   //eg: php-cs-fixer.bat
    "php-cs-fixer.onsave": true,
    "php-cs-fixer.rules": "@PSR12",
   // "php-cs-fixer.config": "C:\\MAMP\\htdocs\\phprest\\vendor\\php-cs-fixer\\config.php_cs",

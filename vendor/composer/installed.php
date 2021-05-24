@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '4da5134e51c4419e30b9228e1586111ad53e576d',
+    'reference' => '052817230a3446fb3f66f6f8ec8418aa8cdd126f',
     'name' => 'mrfreitas/restphp',
   ),
   'versions' => 
@@ -27,7 +27,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '4da5134e51c4419e30b9228e1586111ad53e576d',
+      'reference' => '052817230a3446fb3f66f6f8ec8418aa8cdd126f',
     ),
     'myclabs/deep-copy' => 
     array (
